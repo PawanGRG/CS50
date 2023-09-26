@@ -34,7 +34,8 @@ INVALID
 From this assignment, the key concepts I learnt: 
 - **Algorithms**: I successfully implemented the Luhn's algorithm to verfiy the validitiy of the credit card number inputted by the user. This was done by performing checksum of the credit card number.
 - **Conditional Statements**: I got more confident in utilising conditional statments such as `if`, `else if` and `else`. I successfully implemented them in the program to determine the type of credit card (AMEX, MASTERCARD, VISA, or INVALID) based on the input credit card number and its validity.
-- **Debugging**: While the previous assignments in week 1 presented relatively straightforward debugging scenarios, this assignment introduced a higher level of complexity, resulting in more intricate bugs. To address these challenges, I employed debugging techniques such as utilising the `printf` function to display variable values, meticulously breaking down the problem into smaller, manageable components, and systematically solving them. This method proved effective in resolving the intricate bugs encountered during the assignment. 
+- **Debugging**: While the previous assignments in week 1 presented relatively straightforward debugging scenarios, this assignment introduced a higher level of complexity, resulting in more intricate bugs. To address these challenges, I employed debugging techniques such as utilising the `printf` function to display variable values, meticulously breaking down the problem into smaller, manageable components, and systematically solving them. This method proved effective in resolving the intricate bugs encountered during the assignment.
+- **Functions**: I created a function that checks whether the first one or two digits of a long integer first match a specified integer `check`. This was needed as a part of determining if the credit card number was either AMEX, MASTERCARD or VISA. 
 
 
 ## Mario Less
