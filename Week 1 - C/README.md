@@ -70,3 +70,19 @@ Height: 8
 From this assignment I learnt:
 - **Algorithmic Thinking**:  I designed an efficient algorithm for creating the pyramid pattern, considering the arrangement of spaces and hash symbols on each row. I also recognised and leveraged repeating patterns and relationships between spaces and hash symbols to construct the pyramid accurately.
 - **Debugging**: I encountered and addressed coding issues and errors by breaking down the problem into smaller, manageable components, and systematically solving them. This method proved effective in resolving the intricate bugs encountered during the assignment.
+
+
+## Population
+In this assignment, I implemented a program that calculates the number of years required for the population to grow from the start size to the end size. The program prompts the user for a start size and an end size, making sure the user enters a starting size greater than or equal to 9 and if the user enters a number less than 9, the user is re-prompted. Additonally, the program ensures the user enters the end size that is greater than or equal to the starting population size, if the requirements are not met then the user will be re-prompted again. Example of the code being ran is this:
+```
+$ ./population
+Start size: -5
+Start size: 3
+Start size: 9
+End size: 5
+End size: 18
+Years: 8
+```
+From this assignment I learnt:
+- **While Loops**:  I proficiently utilised while loops to repetitively prompt the user for input until valid values were provided. Furthermore, I employed a while loop to calculate the number of years necessary to reach the target population size.
+- **User Input Handling**: I employed the get_int function to solicit user input while ensuring the input adhered to specific constraints. This included prompting the user for both the starting and ending population sizes and verifying that the input values met the required criteria.
