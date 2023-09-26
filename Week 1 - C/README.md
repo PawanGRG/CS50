@@ -6,14 +6,32 @@ computer science and programming principles, laying the groundwork for subsequen
 set by CS50 and are displayed above.
 ## Cash
 In this assignment, I had to implement a program that prompts the user for the number of cents that a customer is owed and then 
-prints the smallest number of coins with which that change can be made. From this assignment, I learnt:
+prints the smallest number of coins with which that change can be made. An example of the code being ran is:
+```
+$ ./cash
+Change owed: 41
+4
+```
+From this assignment, I learnt:
 - **User Input Handling**: I gained experience in prompting the user for input and handling it appropriately. In this case, I used `get_int` to retrieve the number of cents from the user and how to ensure that negative inputs are handled by prompting the user again.
 - **Mathematical Operations**: I used mathematical operations to determine the number of coins needed. For example, to calculate the number of quarters, I divided cents by 25, and for dimes, I divided by 10.
 - **Return Values**: I understood the importance of returning values explicitly from functions using the return statement. Each of the calculate functions is expected to return the number of coins of a specific denomination
 
 
 ## Credit
-In this assignment, I had to implement a program that prompts the user for a credit card number and report whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein. To determine if the credit card number prompted by the user is valid, an algorithm called the Luhn's algorithm is utilised. From this assignment, the key concepts I learnt: 
+In this assignment, I had to implement a program that prompts the user for a credit card number and report whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein. To determine if the credit card number prompted by the user is valid, an algorithm called the Luhn's algorithm is utilised. An example of the code being ran is:
+```
+$ ./credit
+Number: 4003600000000014
+VISA
+```
+
+```
+$ ./credit
+Number: 6176292929
+INVALID
+```
+From this assignment, the key concepts I learnt: 
 - **Algorithms**: I successfully implemented the Luhn's algorithm to verfiy the validitiy of the credit card number inputted by the user. This was done by performing checksum of the credit card number.
 - **Conditional Statements**: I got more confident in utilising conditional statments such as `if`, `else if` and `else`. I successfully implemented them in the program to determine the type of credit card (AMEX, MASTERCARD, VISA, or INVALID) based on the input credit card number and its validity.
 - **Debugging**: While the previous assignments in week 1 presented relatively straightforward debugging scenarios, this assignment introduced a higher level of complexity, resulting in more intricate bugs. To address these challenges, I employed debugging techniques such as utilising the `printf` function to display variable values, meticulously breaking down the problem into smaller, manageable components, and systematically solving them. This method proved effective in resolving the intricate bugs encountered during the assignment. 
@@ -23,7 +41,7 @@ In this assignment, I had to implement a program that prompts the user for a cre
 In this assignment, I was tasked to recreate the pyramid towards the end of World 1-1 in Nintendo’s Super Mario Brothers game, using hashes (#) for the bricks. This program allows the user to decide how tall the pyramid should be by first prompting them for a positive integer between 1 and 8. If the user doesn’t input a positive integer between 1 and 8, when prompted, the program re-prompts the user until they cooperate. 
 For example the code would run like this:
 ```
- $ ./mario.c
+ $ ./mario_less
 Height: 4
    #
   ##
@@ -36,4 +54,19 @@ From this assignment the key lessons I learnt was:
 
 
 ## Mario More
-This assignment was similar to the one of Mario Less
+This assignment was similar to the one of Mario Less where I was tasked to recreate the pyramid towards the end of World 1-1 in Nintendo’s Super Mario Brothers game, using hashes (#) for the bricks. However this time, I was tasked to create 2 pyramids, mirroring each other in effect. The user is prompted for a positive integer between 1 and 8 to determine the height of the pyramid, and if the user doesn’t input a positive integer between 1 and 8, when prompted, the program re-prompts the user until they cooperate. An example of the code would be this:
+```
+$ ./mario_more
+Height: 8
+       #  #
+      ##  ##
+     ###  ###
+    ####  ####
+   #####  #####
+  ######  ######
+ #######  #######
+########  ########
+```
+From this assignment I learnt:
+- **Algorithmic Thinking**:  I designed an efficient algorithm for creating the pyramid pattern, considering the arrangement of spaces and hash symbols on each row. I also recognised and leveraged repeating patterns and relationships between spaces and hash symbols to construct the pyramid accurately.
+- **Debugging**: I encountered and addressed coding issues and errors by breaking down the problem into smaller, manageable components, and systematically solving them. This method proved effective in resolving the intricate bugs encountered during the assignment.
