@@ -5,7 +5,7 @@ essential coding skills and a problem-solving mindset.  Week 1 established a str
 computer science and programming principles, laying the groundwork for subsequent weeks. I completed various assignments
 set by CS50 and is displayed above.
 ## Cash
-In this assignment, I had to implement a programme that prompts the user for the number of cents that a customer is owed and then 
+In this assignment, I had to implement a program that prompts the user for the number of cents that a customer is owed and then 
 prints the smallest number of coins with which that change can be made. From this assignment, I learnt:
 - **User Input Handling**: I gained experience in prompting the user for input and handling it appropriately. In this case, I used `get_int` to retrieve the number of cents from the user and how to ensure that negative inputs are handled by prompting the user again.
 - **Mathematical Operations**: I used mathematical operations to determine the number of coins needed. For example, to calculate the number of quarters, I divided cents by 25, and for dimes, I divided by 10.
@@ -13,5 +13,9 @@ prints the smallest number of coins with which that change can be made. From thi
 
 
 ## Credit
-In this assignment, I had to implement a programme that prompts the user for a credit card number and report whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein. To determine if the credit card number prompted by the user is valid, an algorithm called the Luhn's algorithm is utilised. From this assignment, the key concepts I learnt: 
-- **Algorithms**: I successfully implemented the Luhn's algorithm to verfiy the validitiy of the credit card number inputted from the user 
+In this assignment, I had to implement a program that prompts the user for a credit card number and report whether it is a valid American Express, MasterCard, or Visa card number, per the definitions of each’s format herein. To determine if the credit card number prompted by the user is valid, an algorithm called the Luhn's algorithm is utilised. From this assignment, the key concepts I learnt: 
+- **Algorithms**: I successfully implemented the Luhn's algorithm to verfiy the validitiy of the credit card number inputted by the user. This was done by performing checksum of the credit card number.
+- **Conditional Statements**: I got more confident in utilising conditional statments such as `if`, `else if` and `else`. I successfully implemented them in the program to determine the type of credit card (AMEX, MASTERCARD, VISA, or INVALID) based on the input credit card number and its validity.
+
+
+## 
