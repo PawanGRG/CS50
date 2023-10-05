@@ -5,8 +5,8 @@ You can access additional information regarding the CS50 course through this lin
 
 
 ## Course Structure
-- [Week 1: C](#week-1-c)
-- [Week 2: Arrays](#week-2-arrays)
+- [Week 1: C](#Week-1-C)
+- [Week 2: Arrays](#Week-2-Arrays)
 - [Week 3: Algorithms](#week-3-algorithms)
 
 
