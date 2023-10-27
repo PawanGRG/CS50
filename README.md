@@ -8,6 +8,7 @@ You can access additional information regarding the CS50 course through this lin
 - [Week 1: C](#Week-1-C)
 - [Week 2: Arrays](#Week-2-Arrays)
 - [Week 3: Algorithms](#week-3-algorithms)
+- [Week 4: Memory](#week-4-memory)
 
 
 
