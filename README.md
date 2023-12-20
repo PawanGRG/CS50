@@ -19,7 +19,7 @@ Week 4 of CS50 focused on advanced memory concepts in C, including overflow, val
 ### [Week 5: Data Structures](#week-4-memory)
 Week 5 of CS50 covered essential data structures, starting with stacks and queues, and the principles of resizing arrays. I learnt about linked lists and their applications, along with trees for hierarchical data organisation. Thi week also introduced dictionaries, hashing, hash tables, and tries, emphasising their roles in efficient data storage and retrieval. This week was key in understanding how different data structures are used to solve various programming challenges.
 ### [Week 6: Python](#week-4-memory)
-
+Week 6 of CS50, focusing on Python, was a smoother experience for me due to my prior knowledge in the language. This week was about revisiting the concepts from Weeks 1, 2, and 3, but implementing them in Python instead of C. It covered Python-specific topics such as variables, conditionals, loops, data types, libraries, dictionaries, command-line arguments, and regular expressions. The transition to Python allowed for a different perspective on the same problems, highlighting the language's simplicity and efficiency in programming.
 ### [Week 7: SQL](#week-4-memory)
 
 
