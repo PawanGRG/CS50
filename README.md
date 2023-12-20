@@ -5,7 +5,11 @@ You can access additional information regarding the CS50 course through this lin
 
 
 ## Course Structure
-- [Week 1: C](#Week-1-C)
+- [Week 1: C](#Week-1-C) - 
+The first week of CS50  introduced the fundamentals of the C programming language, covering concepts such as variables,
+data types, conditionals, loops, and functions.  Lectures, assignments, and problem-solving exercises equipped me with 
+essential coding skills and a problem-solving mindset.  Week 1 established a strong foundation for my understanding of 
+computer science and programming principles, laying the groundwork for subsequent weeks.
 - [Week 2: Arrays](#Week-2-Arrays)
 - [Week 3: Algorithms](#week-3-algorithms)
 - [Week 4: Memory](#week-4-memory)
