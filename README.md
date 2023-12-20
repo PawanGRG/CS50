@@ -11,8 +11,9 @@ data types, conditionals, loops, and functions.  Lectures, assignments, and prob
 essential coding skills and a problem-solving mindset.  Week 1 established a strong foundation for my understanding of 
 computer science and programming principles, laying the groundwork for subsequent weeks.
 ### [Week 2: Arrays](#Week-2-Arrays)
-During this week, CS50 introduced the fundamental concepts of arrays, which are essential for storing and manipulating collections of data efficiently. The curriculum emphasised the significance of memory allocation and dynamic resizing of arrays to manage data effectively in computer programs. As the assignments and problem sets became progressively challenging, I had the opportunity to enhance my problem-solving skills further.
-- [Week 3: Algorithms](#week-3-algorithms)
+The second week of CS50 introduced the fundamental concepts of arrays, which are essential for storing and manipulating collections of data efficiently. The curriculum emphasised the significance of memory allocation and dynamic resizing of arrays to manage data effectively in computer programs. As the assignments and problem sets became progressively challenging, I had the opportunity to enhance my problem-solving skills further.
+### [Week 3: Algorithms](#week-3-algorithms)
+Week 3 of CS50 delved deeper into the intricacies of the C programming language, introducing more complex concepts such as algorithms, and memory management. This week focused on how data can be organised and manipulated using arrays. I explored different sorting and searching algorithms, understanding their efficiency and application in real-world scenarios. Additionally, the course shed light on the fundamentals of memory management, including concepts like stack and heap, pointers, and dynamic memory allocation. This week's assignments and exercises were particularly challenging, pushing me to apply these concepts in more complex programming tasks.
 - [Week 4: Memory](#week-4-memory)
 
 
