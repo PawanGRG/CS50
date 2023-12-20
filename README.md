@@ -15,7 +15,7 @@ The second week of CS50 introduced the fundamental concepts of arrays, which are
 ### [Week 3: Algorithms](#week-3-algorithms)
 Week 3 of CS50 delved deeper into the intricacies of the C programming language, introducing concepts such as recursion/iteration and searching and sorting algorithms. I learned to solve problems using both recursion and iteration, and practiced linear and binary search methods. The week also covered sorting algorithms like bubble and insertion sort. This week's assignments and exercises were particularly challenging, pushing me to apply these concepts in more complex programming tasks.
 ### [Week 4: Memory](#week-4-memory)
-
+Week 4 of CS50 focused on advanced memory concepts in C, including overflow, value swapping, and handling garbage values. We delved into string operations, learning to compare and copy strings effectively. The course also covered in-depth topics like memory allocation, pointers, and understanding memory addresses and hexadecimal representation. This week was helped me in build a comprehensive understanding of memory management and manipulation.
 ### [Week 5: Data Structures](#week-4-memory)
 
 ### [Week 6: Python](#week-4-memory)
