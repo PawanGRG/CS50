@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Pawan Gurung</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Pawan Gurung</div>
+        <div class="mobile-menu">
+            <div class="mobile-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#" onclick="toggleMenu()">About</a></li>
+            <li><a href="#" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+    </nav>
+    <section id="homepage">
+        <div class="profile-pic-container">
+            <img src="./Items/IMG_5165.png" alt="profile pic" id="profile-pic">
+        </div>
+        <div class="text-container">
+            <p class="text-container-p1">Hello, I'm</p>
+            <h1 class="title">Pawan Gurung</h1>
+            <p class="text-container-p2">Aspiring Software Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./Items/Pawan_Gurung_CV.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./Items/linkedin.png" alt="linkedin Logo" class="icon" onclick="location.href='https://www.linkedin.com/in/pawan-gurung-9a3489204/'" >
+                <img src="./Items/github.png" alt="github Logo" class="icon" onclick="location.href='https://github.com/PawanGRG'" >
+                <img src="./Items/twitter.png" alt="twitter Logo" class="icon" onclick="location.href='https://twitter.com/_pawan_gurung'" >
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
