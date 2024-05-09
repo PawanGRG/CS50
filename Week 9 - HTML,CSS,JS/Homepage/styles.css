@@ -7,11 +7,11 @@ body {
 }
 
 .navbar {
-    background-color: #007bff;
+    background-color: white;
 }
 
 .navbar-brand, .navbar-nav .nav-link {
-    color: #fff !important;
+    color: black !important;
 }
 
 .navbar-brand:hover, .navbar-nav .nav-link:hover {
@@ -19,7 +19,7 @@ body {
 }
 
 header.jumbotron {
-    background-color: #007bff;
+    background-color: grey;
     color: #fff;
     padding: 2rem;
     text-align: center;
